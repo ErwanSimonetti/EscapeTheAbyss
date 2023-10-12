@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TestGitHub.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{5FC8A888-040F-4C2C-B70C-D06402CBBD25}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestGitHub.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TestGitHubEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{80A174DF-E160-490A-8988-1AC258C064F6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Platforms">
+      <UniqueIdentifier>{A852C1AF-EBB6-4BAA-A436-4FC4369CCEC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android">
+      <UniqueIdentifier>{55E74B25-26BB-4B2A-B426-448E7D0B24E5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Android\Config">
+      <UniqueIdentifier>{D0D3BA57-27D2-4D5C-9809-136F19F2B779}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Android\Config\AndroidEngine.ini">
+      <Filter>Platforms\Android\Config</Filter>
+    </None>
+    <Filter Include="Platforms\IOS">
+      <UniqueIdentifier>{E625A5B5-47F2-41CD-AFDE-21BE6B99F489}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\IOS\Config">
+      <UniqueIdentifier>{5B0C9374-18B5-4C2C-AC75-67022C163949}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\IOS\Config\IOSEngine.ini">
+      <Filter>Platforms\IOS\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Linux">
+      <UniqueIdentifier>{8E490036-4C76-434C-BB3A-085EB9708E0A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Linux\Config">
+      <UniqueIdentifier>{9B0AE50F-8A1B-439F-B70E-D24F2FD0616C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Linux\Config\LinuxEngine.ini">
+      <Filter>Platforms\Linux\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Mac">
+      <UniqueIdentifier>{EC6DFF0A-93A6-469C-8E13-877A0658D885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Mac\Config">
+      <UniqueIdentifier>{CCD4E52F-D7C7-44DB-B3F7-E663CA3644B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Mac\Config\MacEngine.ini">
+      <Filter>Platforms\Mac\Config</Filter>
+    </None>
+    <Filter Include="Platforms\Windows">
+      <UniqueIdentifier>{2ED89BCD-FE2A-4C15-A8F4-8D7EF128BBAD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platforms\Windows\Config">
+      <UniqueIdentifier>{4D0070A0-DD2A-427C-B794-C11B2916B0C4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Platforms\Windows\Config\WindowsEngine.ini">
+      <Filter>Platforms\Windows\Config</Filter>
+    </None>
+    <Filter Include="Source\TestGitHub">
+      <UniqueIdentifier>{41FAF265-827D-45C4-8DED-E2C31F0B0D45}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TestGitHub\TestGitHub.Build.cs">
+      <Filter>Source\TestGitHub</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TestGitHub\TestGitHub.cpp">
+      <Filter>Source\TestGitHub</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestGitHub\TestGitHub.h">
+      <Filter>Source\TestGitHub</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TestGitHub\TestGitHubGameModeBase.cpp">
+      <Filter>Source\TestGitHub</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TestGitHub\TestGitHubGameModeBase.h">
+      <Filter>Source\TestGitHub</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

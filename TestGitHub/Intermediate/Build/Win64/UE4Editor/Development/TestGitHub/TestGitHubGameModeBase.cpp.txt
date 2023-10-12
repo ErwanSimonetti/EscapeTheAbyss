@@ -1,0 +1,7 @@
+C:\Users\erwan\Documents\EscapeTheAbyss\TestGitHub\Intermediate\Build\Win64\UE4Editor\Development\TestGitHub\Definitions.TestGitHub.h
+C:\Users\erwan\Documents\EscapeTheAbyss\TestGitHub\Source\TestGitHub\TestGitHubGameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\erwan\Documents\EscapeTheAbyss\TestGitHub\Intermediate\Build\Win64\UE4Editor\Inc\TestGitHub\TestGitHubGameModeBase.generated.h
