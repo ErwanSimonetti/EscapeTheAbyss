@@ -4574,3 +4574,28 @@ Sky Sphere
 [2023.10.17-15.02.29:887][496]AssetCheck: New page: Asset Save: multiple assets
 [2023.10.17-15.02.29:887][496]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/MainLevel_BuiltData.MainLevel_BuiltData
 [2023.10.17-15.02.29:887][496]LogContentValidation: Display: Validating World /Game/MainLevel.MainLevel
+[2023.10.17-15.11.32:613][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2023.10.17-15.11.37:141][149]LogSlate: Window 'Save Content' being destroyed
+[2023.10.17-15.11.37:234][149]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset' is outside repository at 'C:/Users/erwan/Documents/EscapeTheAbyss'
+[2023.10.17-15.11.37:435][149]LogSavePackage: Moving '../../../../../../Users/erwan/Documents/EscapeTheAbyss/TestGitHub/Saved/RenderSplineDepthsB16B425947B818A0B2CD1C8B0FFCE291.tmp' to '../../Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset'
+[2023.10.17-15.11.37:485][149]LogAssetEditorSubsystem: Opening Asset editor for World /Game/MainMenuLevel.MainMenuLevel
+[2023.10.17-15.11.37:486][149]Cmd: MAP LOAD FILE="../../../../../../Users/erwan/Documents/EscapeTheAbyss/TestGitHub/Content/MainMenuLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.10.17-15.11.37:486][149]LightingResults: New page: Lighting Build
+[2023.10.17-15.11.37:486][149]LoadErrors: New page: Loading map: MainMenuLevel.umap
+[2023.10.17-15.11.37:495][149]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2023.10.17-15.11.37:496][149]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.10.17-15.11.37:496][149]MapCheck: New page: Map Check
+[2023.10.17-15.11.37:496][149]LightingResults: New page: Lighting Build
+[2023.10.17-15.11.37:526][149]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.10.17-15.11.37:619][149]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2023.10.17-15.11.37:682][149]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainMenuLevel'.
+[2023.10.17-15.11.37:733][149]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.10.17-15.11.37:733][149]LogAIModule: Creating AISystem for world MainMenuLevel
+[2023.10.17-15.11.37:760][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2023.10.17-15.11.37:804][149]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.10.17-15.11.37:805][149]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,225ms to complete.
+[2023.10.17-15.11.37:805][149]LogFileHelpers: Loading map 'MainMenuLevel' took 0.319
+[2023.10.17-15.11.37:850][149]AssetCheck: New page: Asset Save: RenderSplineDepths
+[2023.10.17-15.11.37:850][149]LogContentValidation: Display: Validating Material /Landmass/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.RenderSplineDepths
+[2023.10.17-15.11.38:047][152]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset: 'C:/Program Files/Epic Games/UE_4.27/Engine/Plugins/Experimental/Landmass/Content/Landscape/BlueprintBrushes/Materials/RenderSplineDepths.uasset' is outside repository at 'C:/Users/erwan/Documents/EscapeTheAbyss'
+[2023.10.17-15.11.39:654][210]LogEditorViewport: Clicking Background
