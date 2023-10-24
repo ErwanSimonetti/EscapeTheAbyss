@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeTestGitHub_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4E3548D2,
+				0x857B30CD,
 				0xA6D3E8D5,
 				METADATA_PARAMS(nullptr, 0)
 			};
