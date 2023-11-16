@@ -25,28 +25,29 @@ void ASeaBoxActor::Tick(float DeltaTime)
 
 }
 
-bool ASeaBoxActor::isSeaOverlappingWithPlayer()
+bool ASeaBoxActor::isSeaOverlappingWithPlayer(void)
 {
-	TSet<AActor*> OverlappingActors;
-	CollisionBox->GetOverlappingActors(OverlappingActors);
-	APlayerCameraManager* camManager = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);
-	UPrimitiveComponent* CameraPrimitiveComponent = Cast<UPrimitiveComponent>(camManager->GetViewTarget()->GetRootComponent());
-	FVector PointToCheck = CameraPrimitiveComponent->GetComponentTransform().GetLocation();
-	bool CameraIsInsideBox = false;
-
-	if (CameraPrimitiveComponent && CollisionBox) {
-		PointToCheck.Y -= 225;
-
-		CameraIsInsideBox = CollisionBox->Bounds.GetBox().IsInside(PointToCheck);
-		if (CameraIsInsideBox)
-			GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, "camera inside box");
-	}
-	for (int i = 0; i < OverlappingActors.Array().Num(); i += 1) {
-		FString OverlappingActor = OverlappingActors.Array()[i]->GetActorLabel();
-
-		if (OverlappingActor == "Player" && CameraIsInsideBox)
-			return true;
-	}
 	return false;
+	//TSet<AActor*> OverlappingActors;
+	//CollisionBox->GetOverlappingActors(OverlappingActors);
+	//APlayerCameraManager* camManager = UGameplayStatics::GetPlayerCameraManager(GetWorld(), 0);
+	//UPrimitiveComponent* CameraPrimitiveComponent = Cast<UPrimitiveComponent>(camManager->GetViewTarget()->GetRootComponent());
+	//FVector PointToCheck = CameraPrimitiveComponent->GetComponentTransform().GetLocation();
+	//bool CameraIsInsideBox = false;
+
+	//if (CameraPrimitiveComponent && CollisionBox) {
+	//	PointToCheck.Y -= 225;
+
+	//	CameraIsInsideBox = CollisionBox->Bounds.GetBox().IsInside(PointToCheck);
+	//	if (CameraIsInsideBox)
+	//		GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Green, "camera inside box");
+	//}
+	//for (int i = 0; i < OverlappingActors.Array().Num(); i += 1) {
+	//	FString OverlappingActor = OverlappingActors.Array()[i]->GetActorLabel();
+
+	//	if (OverlappingActor == "Player" && CameraIsInsideBox)
+	//		return true;
+	//}
+	//return false;
 }
 
