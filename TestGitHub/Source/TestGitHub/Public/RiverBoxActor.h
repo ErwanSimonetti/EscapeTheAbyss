@@ -27,6 +27,6 @@ public:
 		class UBoxComponent* CollisionBox;
 
 	UFUNCTION(BlueprintCallable, Category = "CustomEvents")
-		bool isRiverOverlapping();
+		bool isRiverOverlappingWithPlayer();
 
 };
